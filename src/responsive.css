@@ -94,9 +94,9 @@
     } 
   }
 
-  @media (max-width: 1024px)  and (max-width:425px) {
+  @media (max-width: 1110px)  and (max-width:425px) {
     .product-box {
-        width: 24%;
+        width: 30%;
         height: 200px;
         background: rgb(223, 221, 221);
         padding-bottom: 10px;
@@ -124,14 +124,14 @@
     .search-input {
         width: 100%;
         margin-bottom: 10px;
-        border-radius: 5px; /* Full rounded corners on small screens */
+        border-radius: 5px; 
     }
 }
 
 
 /* header */
 
-@media (max-width: 768px) {
+@media (max-width: 1676px) {
     .hamburger {
         display: block;
     }
@@ -141,6 +141,7 @@
         flex-direction: column;
         position: absolute;
         top: 50px;
+        margin-right: 0px;
         /* background-color: #333; */
         width: 50%;
     }
