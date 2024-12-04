@@ -27,7 +27,6 @@ const Login = () => {
   return (
     <>
       <header className="header">
-        <h2>Login</h2>
       </header>
       <div className="home">
         <div className="login-container">
